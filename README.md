@@ -1,6 +1,6 @@
 # Natural_Language_Processing
 
-![Stock Sentiment](Images/sentimental.jpeg)
+![Stock Sentiment](sentimental.jpeg)
 
 ## Project Background
 
@@ -30,11 +30,17 @@ I used [newsapi](https://newsapi.org/) to pull the latest news articles for Bitc
 
 I used descriptive statistics to answer the following questions:
 
-> Which coin had the highest mean positive score?
->
-> Which coin had the highest negative score?
->
-> Which coin had the highest positive score?
+Q: Which coin had the highest mean positive score?
+
+> A: Bitcoin had the higher mean positive score at 8.9% versus Ethereum at 5.8%.
+
+Q: Which coin had the highest compound score?
+
+> A: Again, Bitcoin had the higher compound score at 5.6% versus Ethereum at 4.7%.
+
+Q. Which coin had the highest positive score?
+
+> A: Bitcoin had the hightest max positive score of an article at 28.2% versus Ethereum's max positive article score of 22.3%
 
 
 
@@ -46,9 +52,9 @@ In this section, I used NLTK and Python to tokenize the text, find n-gram counts
 
 Generate word clouds for each coin to summarize the news for each coin.
 
-![btc-word-cloud.png](Images/btc-word-cloud.png)
+![Bitcoin WordCloud](Bitcoin_wordcloud.png)
 
-![eth-word-cloud.png](Images/eth-word-cloud.png)
+![Ethereum WordCloud](Ethereum_wordcloud.png)
 
 
 ### 3 - Named Entity Recognition
