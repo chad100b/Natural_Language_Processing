@@ -59,11 +59,10 @@ Generate word clouds for each coin to summarize the news for each coin.
 
 ### 3 - Named Entity Recognition
 
-In this section, I built a named entity recognition model for both coins and visualize the tags using SpaCy.
+In this section, I built a named entity recognition model for both coins and visualize the tags using SpaCy. BTC NER sample below:
 
-![btc-ner.png](Images/btc-ner.png)
+![Bitcoin Named Entity Recognition](BTC_NER.png)
 
-![eth-ner.png](Images/eth-ner.png)
 
 
 ---
